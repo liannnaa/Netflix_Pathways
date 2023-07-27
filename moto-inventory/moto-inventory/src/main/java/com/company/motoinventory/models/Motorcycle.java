@@ -3,11 +3,17 @@ package com.company.motoinventory.models;
 import java.util.Objects;
 
 public class Motorcycle {
-
     private String id;
     private String make;
     private String model;
     private int year;
+
+    public Motorcycle(String id, String make, String model, int year) {
+        this.id = id;
+        this.make = make;
+        this.model = model;
+        this.year = year;
+    }
 
     public String getId() {
         return id;
