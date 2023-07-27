@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/moto-inventory/solved/moto-inventory/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-crm-api/simple-crm-api/pom.xml" />
+        <option value="$PROJECT_DIR$/coffeeinventory/pom.xml" />
+        <option value="$PROJECT_DIR$/city-web-service/pom.xml" />
+        <option value="$PROJECT_DIR$/echo-range-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Lianna_Poblete_Java/M1-Challenge-Poblete-Lianna/pom.xml" />
+        <option value="$PROJECT_DIR$/Lianna_Poblete_Java/M2-Challenge-Poblete-Lianna/chatterbook/pom.xml" />
+        <option value="$PROJECT_DIR$/Lianna_Poblete_Java/M6-Challenge-Poblete-Lianna/customer-data-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Lianna_Poblete_Java/Summative-1-Lianna-Liliana-Nathalie/Summative-Project-1/Summative-Project-1/pom.xml" />
+        <option value="$PROJECT_DIR$/city-web-service1/city-web-service/pom.xml" />
+        <option value="$PROJECT_DIR$/city-web-service/city-web-service/pom.xml" />
+        <option value="$PROJECT_DIR$/coffee-inventory/coffeeinventory/pom.xml" />
+        <option value="$PROJECT_DIR$/echo-range-service/echo-range-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
