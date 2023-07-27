@@ -11,8 +11,8 @@
         <module name="Summative-Project-1" />
         <module name="city-web-service" />
         <module name="solved" />
-        <module name="moto-inventory" />
         <module name="chatterbook" />
+        <module name="moto-inventory" />
         <module name="customer-data-service" />
         <module name="echo-range-service" />
       </profile>
