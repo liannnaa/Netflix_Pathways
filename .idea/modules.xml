@@ -11,7 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/echo-range-service/echo-range-service/echo-range-service.iml" filepath="$PROJECT_DIR$/echo-range-service/echo-range-service/echo-range-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/moto-inventory/solved/moto-inventory/moto-inventory.iml" filepath="$PROJECT_DIR$/moto-inventory/solved/moto-inventory/moto-inventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-crm-api/simple-crm-api/simple-crm-api.iml" filepath="$PROJECT_DIR$/simple-crm-api/simple-crm-api/simple-crm-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lianna_Poblete_Java/M1-Challenge-Poblete-Lianna/solved.iml" filepath="$PROJECT_DIR$/Lianna_Poblete_Java/M1-Challenge-Poblete-Lianna/solved.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lianna_Poblete_Java/M1-Challenge-Poblete-Lianna/account-balancing/solved.iml" filepath="$PROJECT_DIR$/Lianna_Poblete_Java/M1-Challenge-Poblete-Lianna/account-balancing/solved.iml" />
     </modules>
   </component>
 </project>
