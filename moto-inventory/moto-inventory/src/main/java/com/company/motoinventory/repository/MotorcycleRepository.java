@@ -38,4 +38,37 @@ public class MotorcycleRepository {
         }
         return resultMotorcycle;
     }
+
+    // Add a motorcycle
+    public Motorcycle addMotorcycle(String id, String make, String model, int year) {
+        Motorcycle newMotorcycle = new Motorcycle(id, make, model, year);
+        this.motorcycles.add(newMotorcycle);
+        return newMotorcycle;
+    }
+
+    // Update a motorcycle
+    public Motorcycle updateMotorcycle(Motorcycle motorcycle) {
+        for (Motorcycle m : motorcycles) {
+            int indexNumber = -1;
+            if (m.getId().equals(motorcycle.getId())) {
+                indexNumber = motorcycles.indexOf(m);
+                motorcycles.set(indexNumber, motorcycle);
+                return motorcycle;
+            }
+        }
+        return null;
+    }
+
+    // Delete Motorcycle by id
+    public boolean deleteMotorcycleById(String id) {
+        for (Motorcycle m : motorcycles) {
+            int indexNumber = -1;
+            if (m.getId().equals(id)) {
+                indexNumber = motorcycles.indexOf(m);
+                motorcycles.remove(indexNumber);
+                return true;
+            }
+        }
+        return false;
+    }
 }
