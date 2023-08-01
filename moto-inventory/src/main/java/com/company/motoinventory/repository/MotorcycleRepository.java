@@ -9,25 +9,26 @@ import java.util.List;
 @Component
 public class MotorcycleRepository {
 
-    public MotorcycleRepository(){
+    public MotorcycleRepository() {
         seedDataStore();
     }
 
-    private List<Motorcycle> motorcycles = new ArrayList<>();
+    private List<Motorcycle> motorcycles = new ArrayList<Motorcycle>();
 
     private void seedDataStore() {
         Motorcycle m1 = new Motorcycle("11111", "Honda", "Street Cruiser", 1988);
         Motorcycle m2 = new Motorcycle("22222", "Yamaha", "Moto Cross X", 2005);
         this.motorcycles.add(m1);
         this.motorcycles.add(m2);
+
     }
 
     // Retrieve all motorcycles
-    public List<Motorcycle> getMotorcycles(){
+    public List<Motorcycle> getMotorcycles() {
         return this.motorcycles;
     }
 
-    // Retrieve a motorcycle by id
+    // Retrieve a motorcycle by Id
     public Motorcycle getMotorcycleById(String id) {
         List<Motorcycle> idMatch = this.motorcycles;
         Motorcycle resultMotorcycle = null;
@@ -48,6 +49,7 @@ public class MotorcycleRepository {
 
     // Update a motorcycle
     public Motorcycle updateMotorcycle(Motorcycle motorcycle) {
+
         for (Motorcycle m : motorcycles) {
             int indexNumber = -1;
             if (m.getId().equals(motorcycle.getId())) {
@@ -59,7 +61,7 @@ public class MotorcycleRepository {
         return null;
     }
 
-    // Delete Motorcycle by id
+    // Delete Motorcycle by Id
     public boolean deleteMotorcycleById(String id) {
         for (Motorcycle m : motorcycles) {
             int indexNumber = -1;
@@ -71,4 +73,5 @@ public class MotorcycleRepository {
         }
         return false;
     }
+
 }

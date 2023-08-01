@@ -1,3 +1,4 @@
+
 type Motorcycle {
     id: String!
     make: String!
@@ -15,3 +16,6 @@ type Mutation {
     updateMotorcycle(id:String make:String model:String year:Int): Motorcycle
     deleteMotorcycleById(id:String!): Boolean
 }
+
+
+

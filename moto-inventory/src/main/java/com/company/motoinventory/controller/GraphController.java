@@ -12,16 +12,17 @@ import java.util.List;
 
 @Controller
 public class GraphController {
+
     @Autowired
     MotorcycleRepository motorcycleRepository;
 
     @QueryMapping
-    public List<Motorcycle> motorcycles(){
-        return motorcycleRepository.getMotorcycles();
+    public List<Motorcycle> motorcycles() {
+        return  motorcycleRepository.getMotorcycles();
     }
 
     @QueryMapping
-    public Motorcycle findMotorcycleById(@Argument String id){
+    public Motorcycle findMotorcycleById(@Argument String id) {
         return motorcycleRepository.getMotorcycleById(id);
     }
 

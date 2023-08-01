@@ -1,3 +1,0 @@
-# Moto Inventory
-
-# Skills

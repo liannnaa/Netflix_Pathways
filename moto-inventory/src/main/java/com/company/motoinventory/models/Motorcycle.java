@@ -8,6 +8,9 @@ public class Motorcycle {
     private String model;
     private int year;
 
+    public Motorcycle() {
+    }
+
     public Motorcycle(String id, String make, String model, int year) {
         this.id = id;
         this.make = make;
@@ -50,13 +53,17 @@ public class Motorcycle {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Motorcycle)) return false;
         Motorcycle that = (Motorcycle) o;
-        return year == that.year && Objects.equals(id, that.id) && Objects.equals(make, that.make) && Objects.equals(model, that.model);
+        return getYear() == that.getYear() &&
+                Objects.equals(getId(), that.getId()) &&
+                Objects.equals(getMake(), that.getMake()) &&
+                Objects.equals(getModel(), that.getModel());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, make, model, year);
+        return Objects.hash(getId(), getMake(), getModel(), getYear());
     }
+
 }
