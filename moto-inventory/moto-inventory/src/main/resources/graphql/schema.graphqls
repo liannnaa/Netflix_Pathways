@@ -1,0 +1,45 @@
+type Motorcycle {
+    id: ID!
+    make: String!
+    model: String!
+    year: Int!
+    owner: Owner
+    manufacturer: Manufacturer
+  }
+
+  type Owner {
+      id: ID!
+      name:String!
+      address:String!
+      motorcycles:[Motorcycle]
+  }
+
+  type Manufacturer {
+    id:ID!
+    name:String!
+    location:String!
+    motorcycles:[Motorcycle]
+    }
+
+type Query {
+        motorcycles: [Motorcycle]!
+        findMotorcycleById(id:ID!): Motorcycle
+#        owners:[Owner]!
+#        owner(id:ID!):Owner
+#        manufacturers:[Manufacturer]!
+#        manufacturer(id: ID!): Manufacturer
+
+
+  }
+
+#type Mutation {
+#    addMotorcycle(id: ID!, make: String!, model: String!, year: Int!, ownerId: ID, manufacturerId: ID): Motorcycle
+#    updateMotorcycle(id: ID!, make: String!, model: String!, year: Int!, ownerId: ID, manufacturerId: ID): Motorcycle
+#    deleteMotorcycle(id: ID!): Boolean
+#    addOwner(id: ID!, firstName: String!, lastName: String!): Owner
+#    updateOwner(id: ID!, firstName: String!, lastName: String!): Owner
+#    deleteOwner(id: ID!): Boolean
+#    addManufacturer(id: ID!, name: String!): Manufacturer
+#    updateManufacturer(id: ID!, name: String!): Manufacturer
+#    deleteManufacturer(id: ID!): Boolean
+#}
