@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bookstore" />
         <module name="coffeeinventory" />
         <module name="simple-crm-api" />
         <module name="Summative-Project-1" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bookstore" target="11" />
       <module name="chatterbook" target="11" />
       <module name="city-web-service" target="11" />
       <module name="coffeeinventory" target="11" />
@@ -32,6 +34,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Summative-Project-1" options="-parameters" />
+      <module name="bookstore" options="-parameters" />
       <module name="chatterbook" options="-parameters" />
       <module name="city-web-service" options="-parameters" />
       <module name="coffeeinventory" options="-parameters" />
