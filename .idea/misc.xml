@@ -19,6 +19,10 @@
         <option value="$PROJECT_DIR$/Lianna_Poblete_Java/M1-Challenge-Poblete-Lianna/account-balancing/pom.xml" />
         <option value="$PROJECT_DIR$/moto-inventory/moto-inventory/pom.xml" />
         <option value="$PROJECT_DIR$/Lianna_Poblete_Java/Summative-2-Lianna-Liliana-Nathalie/bookstore/pom.xml" />
+        <option value="$PROJECT_DIR$/secure-app/secure-app/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-app/jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth/authorization-service/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth/oath-reader/pom.xml" />
       </list>
     </option>
   </component>

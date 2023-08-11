@@ -6,26 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bookstore" />
-        <module name="coffeeinventory" />
-        <module name="simple-crm-api" />
+        <module name="jwt" />
         <module name="Summative-Project-1" />
-        <module name="city-web-service" />
         <module name="solved" />
         <module name="chatterbook" />
         <module name="moto-inventory" />
-        <module name="customer-data-service" />
         <module name="echo-range-service" />
+        <module name="bookstore" />
+        <module name="secure-app" />
+        <module name="coffeeinventory" />
+        <module name="simple-crm-api" />
+        <module name="city-web-service" />
+        <module name="customer-data-service" />
+        <module name="oath-reader" />
+      </profile>
+      <profile name="Annotation profile for authorization-service" enabled="true">
+        <sourceOutputDir name="../oauth/authorization-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../oauth/authorization-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authorization-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="authorization-service" target="11" />
       <module name="bookstore" target="11" />
       <module name="chatterbook" target="11" />
       <module name="city-web-service" target="11" />
       <module name="coffeeinventory" target="11" />
       <module name="customer-data-service" target="11" />
       <module name="echo-range-service" target="11" />
+      <module name="jwt" target="11" />
       <module name="moto-inventory" target="11" />
+      <module name="oath-reader" target="11" />
+      <module name="secure-app" target="11" />
       <module name="simple-crm-api" target="11" />
       <module name="solved" target="11" />
       <module name="Summative-Project-1" target="11" />
@@ -34,13 +47,17 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Summative-Project-1" options="-parameters" />
+      <module name="authorization-service" options="-parameters" />
       <module name="bookstore" options="-parameters" />
       <module name="chatterbook" options="-parameters" />
       <module name="city-web-service" options="-parameters" />
       <module name="coffeeinventory" options="-parameters" />
       <module name="customer-data-service" options="-parameters" />
       <module name="echo-range-service" options="-parameters" />
+      <module name="jwt" options="-parameters" />
       <module name="moto-inventory" options="-parameters" />
+      <module name="oath-reader" options="-parameters" />
+      <module name="secure-app" options="-parameters" />
       <module name="simple-crm-api" options="-parameters" />
     </option>
   </component>
