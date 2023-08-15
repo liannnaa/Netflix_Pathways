@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/coffee-inventory/coffeeinventory/coffeeinventory.iml" filepath="$PROJECT_DIR$/coffee-inventory/coffeeinventory/coffeeinventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lianna_Poblete_Java/M6-Challenge-Poblete-Lianna/customer-data-service/customer-data-service.iml" filepath="$PROJECT_DIR$/Lianna_Poblete_Java/M6-Challenge-Poblete-Lianna/customer-data-service/customer-data-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/echo-range-service/echo-range-service/echo-range-service.iml" filepath="$PROJECT_DIR$/echo-range-service/echo-range-service/echo-range-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-hello/hello-circle/hello-circle.iml" filepath="$PROJECT_DIR$/circle-hello/hello-circle/hello-circle.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt-app/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt-app/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/moto-inventory/moto-inventory/moto-inventory.iml" filepath="$PROJECT_DIR$/moto-inventory/moto-inventory/moto-inventory.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth/oath-reader/oath-reader.iml" filepath="$PROJECT_DIR$/oauth/oath-reader/oath-reader.iml" />

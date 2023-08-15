@@ -23,6 +23,8 @@
         <option value="$PROJECT_DIR$/jwt-app/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/oauth/authorization-service/pom.xml" />
         <option value="$PROJECT_DIR$/oauth/oath-reader/pom.xml" />
+        <option value="$PROJECT_DIR$/02-we-echo-service-deploy/echo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/circle-hello/hello-circle/pom.xml" />
       </list>
     </option>
   </component>

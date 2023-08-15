@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/02-we-echo-service-deploy/echo-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-we-echo-service-deploy/echo-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lianna_Poblete_Java/M2-Challenge-Poblete-Lianna/chatterbook/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lianna_Poblete_Java/M2-Challenge-Poblete-Lianna/chatterbook/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lianna_Poblete_Java/M6-Challenge-Poblete-Lianna/customer-data-service/src/main/java" charset="UTF-8" />
@@ -9,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/Lianna_Poblete_Java/Summative-1-Lianna-Liliana-Nathalie/Summative-Project-1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lianna_Poblete_Java/Summative-2-Lianna-Liliana-Nathalie/bookstore/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lianna_Poblete_Java/Summative-2-Lianna-Liliana-Nathalie/bookstore/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-hello/hello-circle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-hello/hello-circle/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/city-web-service/city-web-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/city-web-service/city-web-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/coffee-inventory/coffeeinventory/src/main/java" charset="UTF-8" />

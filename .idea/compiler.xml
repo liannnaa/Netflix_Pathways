@@ -11,6 +11,7 @@
         <module name="solved" />
         <module name="chatterbook" />
         <module name="moto-inventory" />
+        <module name="hello-circle" />
         <module name="echo-range-service" />
         <module name="bookstore" />
         <module name="secure-app" />
@@ -35,6 +36,8 @@
       <module name="coffeeinventory" target="11" />
       <module name="customer-data-service" target="11" />
       <module name="echo-range-service" target="11" />
+      <module name="echo-service" target="11" />
+      <module name="hello-circle" target="11" />
       <module name="jwt" target="11" />
       <module name="moto-inventory" target="11" />
       <module name="oath-reader" target="11" />
@@ -54,6 +57,8 @@
       <module name="coffeeinventory" options="-parameters" />
       <module name="customer-data-service" options="-parameters" />
       <module name="echo-range-service" options="-parameters" />
+      <module name="echo-service" options="-parameters" />
+      <module name="hello-circle" options="-parameters" />
       <module name="jwt" options="-parameters" />
       <module name="moto-inventory" options="-parameters" />
       <module name="oath-reader" options="-parameters" />
