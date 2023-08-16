@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/oauth/oath-reader/pom.xml" />
         <option value="$PROJECT_DIR$/02-we-echo-service-deploy/echo-service/pom.xml" />
         <option value="$PROJECT_DIR$/circle-hello/hello-circle/pom.xml" />
+        <option value="$PROJECT_DIR$/Lianna_Poblete_Java/M9-Challenge-Poblete-Lianna/record-store-api/pom.xml" />
+        <option value="$PROJECT_DIR$/Lianna_Poblete_Java/M9-Challenge-Poblete-Lianna/authorization-service/pom.xml" />
       </list>
     </option>
   </component>
